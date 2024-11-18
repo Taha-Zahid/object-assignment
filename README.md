@@ -14,7 +14,7 @@ This project demonstrates real-time object detection using a lightweight virtual
 ## Prerequisites
 Before starting, ensure you have the following:
 1. **QEMU**: For running the virtual machine.
-2. **Xubuntu ISO**: [Xubuntu 18.04](https://xubuntu.org/release/18-04/) (amd64).
+2. **Xubuntu ISO**: [Xubuntu 18.04](https://cdimage.ubuntu.com/xubuntu/releases/18.04/release/) (amd64).
 3. **Python3 and OpenCV**: Installed within the Xubuntu virtual machine.
 
 ---
