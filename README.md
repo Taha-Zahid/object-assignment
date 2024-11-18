@@ -21,26 +21,26 @@ Before starting, ensure you have the following:
 
 ## Step-by-Step Instructions
 
-### Step 1: Boot the Virtual Machine
+## Step 1: Boot the Virtual Machine
 Use the command below to boot the Xubuntu virtual machine:
 
 ```bash
 qemu-system-x86_64 -M q35 -m 4096 -cdrom xubuntu-18.04.5-desktop-amd64.iso -boot order=d -smp 2 -vga virtio -display gtk
 
-### Step 2: Clone the Repository
+## Step 2: Clone the Repository
 After booting the virtual machine, open the terminal and clone the GitHub repository:
 
 ```bash
 git clone https://github.com/Taha-Zahid/object-assignment.git
 cd object-assignment
 
-### Step 3: Update the System and Install Dependencies
+## Step 3: Update the System and Install Dependencies
 Ensure the virtual machine’s system is updated and install necessary packages:
 
 sudo apt-get update
 sudo apt-get install python3-opencv
 
-### Step 4: Run the Object Detection Script
+## Step 4: Run the Object Detection Script
 Execute the object detection script with the following command:
 
 python3 object_detect.py
